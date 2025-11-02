@@ -1,0 +1,29 @@
+.icon-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:0.5rem;
+}
+.footer-container{
+    margin-top:50px;
+}
+
+/* .footer-text, #line1, #line2{
+    background-color: #1a1a3094;
+} */
+
+#line1, #line2{
+    color:rgb(129, 117, 117);
+    margin-left:10rem;
+    margin-right:10rem;
+    display:block;
+    text-align:left;
+}
+
+#contact{
+    color:rgb(129, 117, 117);
+    margin-left:10rem;
+    margin-right:10rem;
+    display:block;
+    text-align:left;
+}

@@ -1,0 +1,22 @@
+.Portfolio-page{
+    background-color: #0A1428;
+
+}
+.Portfolio-info{
+    margin-top:20px;
+    background-color: #0A1428;
+}
+
+.portfolio-Graph{
+    background-color: '#0A1428';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 25px;
+}
+
+.portfolio-table{
+    padding:40px;
+    background-color:#0A1428;
+}
