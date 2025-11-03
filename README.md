@@ -11,8 +11,10 @@ Real-time market simulation with dummy asset data.
 Portfolio tracking – view balance, open trades, and profits.
 Trade history – keep record of all executed trades.
 Responsive UI – designed with React & Material UI.
-About & Disclaimer page for realistic app touch.
 Polished interface with smooth animations and effects.
+
+Currently project is under way, I am constantly trying to improve it and adding more features to it.
+
 
 # React + Vite
 
