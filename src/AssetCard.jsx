@@ -1,6 +1,6 @@
 import assets from "./assets.js";
-
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 // import Buybtn from "./buybtn.jsx";
 // import Sellbtn from "./sellbtn.jsx";
 // import "./AssetCard.css";
@@ -70,15 +70,21 @@ export default function assetCard({idx}) {
                     // new way of styling seekh isko 
                     // sx={{"& .MuiListItemText-primary":{color:"#ff4d6d", fontWeight:1000, fontSize:"35px", textAlign:"center"}}}
                     primary={
-                        // condition
-                        assets[idx].change > 0?
-                        // if yes
-                        `Increase: ${assets[idx].change}%`:
-                        // if no
-                        `Decrease: ${assets[idx].change}%`
+                      <span style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                      {assets[idx].change > 0 ? (
+                        <>
+                          Increase: {assets[idx].change}%
+                          <ArrowUpwardIcon style={{ color: "#00ff00" }} />
+                        </>
+                      ) : (
+                        <>
+                          Decrease: {assets[idx].change}%
+                          <ArrowDownwardIcon style={{ color: "red" }} />
+                        </>
+                      )}
+                    </span>
+
                     }
-
-
                     primaryTypographyProps={{
                         color: assets[idx].change > 0 ? "#4cbb4c" : "#ff4d6d",
                         fontWeight: 1000,
