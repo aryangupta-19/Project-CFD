@@ -1,5 +1,5 @@
 import PortfolioNav from "./Portfolio-nav.jsx";
-import PortfolioInfo from "./Portfolio-info.jsx";
+import PortfolioInfo from "./portfolio-info.jsx";
 import PortfolioGraph from "./Portfolio-graph.jsx";
 import PortfolioTable from "./Portfolio-table.jsx";
 import Footer from "./Footer.jsx";

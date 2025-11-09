@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import * as React from 'react';
-import Navbar from "./navbar.jsx";
-import "./app.css";
-import Portfolio from "./Portfolio.jsx";
-import Market from "./Market.jsx";
+import Navbar from "./components/navbar.jsx";
+import "./components/app.css";
+import Portfolio from "./components/Portfolio.jsx";
+import Market from "./components/Market.jsx";
 
 
 export default function ButtonAppBar() {
